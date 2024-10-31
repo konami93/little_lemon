@@ -12,9 +12,9 @@ body {
   color: #495E57;
 }
 
-header {
-  border-bottom: 1rem solid #495E57;
-}
+/* header {
+  border-bottom: 0.2rem solid #495E57;
+} */
 
 a {
   text-decoration: none;
