@@ -8,25 +8,13 @@ const OurStory = () => {
       <div className="our-story-description">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-          culpa qui officia deserunt mollit anim id est laborum. Sed ut 
-          perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-          inventore veritatis et quasi architecto beatae vitae dicta sunt 
-          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-          voluptatem sequi nesciunt.
+        <p style={{ textAlign: "justify" }}>
+          Little Lemon is a charming restaurant nestled in the heart of Chicago, known for its inviting atmosphere and vibrant Mediterranean-inspired cuisine. With a menu that highlights fresh, seasonal ingredients, diners can enjoy a variety of dishes ranging from zesty salads to flavorful pasta and grilled meats. The decor features warm colors and rustic touches, creating a cozy yet elegant dining experience. Perfect for casual lunches, romantic dinners, or special celebrations, Little Lemon is a beloved spot for both locals and visitors seeking a taste of culinary delight. Guests can indulge in a diverse array of dishes, such as their signature lemon herb chicken, vibrant mezze platters, and seasonal salads bursting with freshness. The carefully crafted cocktails and extensive wine list offer the perfect pairing for any meal.
         </p>
       </div>
       <div className="our-story-chefs">
-        <img src={chefsMarioAndAdrianAImage} alt="Chefs Mario and Adrian" />
-        <img src={chefsMarioAndAdrianBImage} alt="Chefs Mario and Adrian" />
+        <img src={chefsMarioAndAdrianAImage} width={400} alt="Chefs Mario and Adrian" />
+        <img src={chefsMarioAndAdrianBImage} width={400} alt="Chefs Mario and Adrian" />
       </div>
     </section>
   );

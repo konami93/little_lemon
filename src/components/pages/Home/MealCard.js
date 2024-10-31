@@ -15,7 +15,7 @@ const MealCard = ({ meal }) => {
         <span>{meal.price}</span>
       </div>
       <div className="meal-card-body-footer">
-        <p>{meal.description}</p>
+        <p style={{ textAlign: "justify" }}>{meal.description}</p>
         <Link to={pages.get('orderOnline').path}>
           Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
         </Link>

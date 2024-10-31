@@ -13,11 +13,11 @@ const TestimonialCard = ({ customer }) => {
       <img src={customer.image} alt={customer.fullName} />
       <h4>{customer.fullName}</h4>
       <span>
-        {customer.rating.map((ratingPoint, index) => 
-          <FontAwesomeIcon 
-            key={index} 
-            icon={ratingLevels[ratingPoint]} 
-            size="xs" 
+        {customer.rating.map((ratingPoint, index) =>
+          <FontAwesomeIcon
+            key={index}
+            icon={ratingLevels[ratingPoint]}
+            size="xs"
           />
         )}
       </span>
